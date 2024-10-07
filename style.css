@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-family: "Rajdhani";
+}
+.resize{
+    width: 200px; /* Set your desired width */ 
+    height: 200px; /* Set your desired height */ 
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the container */
+}
+.HaloCE{
+    background-image: url(halo3\ hd.jpg) ;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+.ThePillerOfAutumm{
+    background-color: ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+.Halo{
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    width: 280px;
+    height: 280px;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+}
+.M6D{
+    font-size: 70px;
+    font-weight:400 ;
+}
+.icon{
+    font-size: 50px ;
+    font-weight: 400;
+}
+.icon2{
+    font-size: 50px ;
+    font-weight: 400;
+}
+.Halo2{
+    width: 100%;
+    background-color: white;
+}
+.TheHeretic{
+    padding-top: 80px ;
+    padding-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.TheAmory{
+    display: flex;
+}
+.CarioStation{
+   width: 40%;
+}
+.MJOLNIRmarkVI{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.Spartanname{
+    width: 146px;
+    padding-left: 70px;
+}
+.Spartanid{
+}
+.Outskirts{
+    width: 60%;
+}
+.TheArbiter{
+}
+.TheOracle{
+    margin-top: 17px;
+}
+.Halo3{
+    width: 100%;
+    background-color: white;
+}
+.Arrival{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.Sierra117{
+    display: inline-block;
+    text-align: center ;
+    font-size:25px ;
+    border-radius: 12%;
+    margin-left: 40%;
+}
+.CrowsNest{
+    width: 100%;
+}
+.TsavoHighway{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 50px !important;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    background-color: rgb(217, 213, 213);
+    position: relative;
+}
+.FullContactSafari{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.TheStorm{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 50px !important;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    position: relative;
+}
+.STGJohnson{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.Floodgate{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 50px !important;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    position: relative;
+    background-color: rgb(217, 213, 213);
+}
+.Shipmaster{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 50%;
+}
+.TheArk{
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 50px !important;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    position: relative;
+}
+.ODSTleader{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.TheCovenant{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #91EDEC;
+}
+.Trident{
+    text-align: center;
+    margin: 0;
+}
+.Cortana{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+.Rampant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background-color: white;
+    height: 350px;
+    border-radius: 30px;
+    margin: 0 30px;
+    border: 1px solid whitesmoke transparent;
+}
+.HALO1{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Halo3ODST{
+    width: 100%;
+    background-color: rgb(64, 60, 60);
+    text-align: center;
+    padding: 60px 50px;
+}
+.PrepareToDrop{
+    border: 1px solid white transparent;
+    display: inline-block;
+    text-align: center ;
+    font-size:45px ;
+    border-radius: 15%;
+    background-color: white;
+    margin-top: 20px;
+}
+.MombasaStreets{
+    color: white;
+}
+.TayariPlaza{
+    display: flex;
+    justify-content: space-around;
+}
+.BUCK{
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: white; 
+    text-align: justify;
+}
+.resize2{
+    width: 424px; /* Set your desired width */ 
+    height: 200px; /* Set your desired height */ 
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the container */
+}
+.UpliftReserve{
+    border: 1px solid white transparent;
+    display: inline-block;
+    text-align: center ;
+    font-size:45px ;
+    border-radius: 15%;
+    background-color: white;
+    margin-top: 20px;
+}
+.KizingoBoulevard{
+    color: white;
+}
+.ONIAlphaSite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.DUTCH{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 50px 0;
+    border-radius: 10px;
+    padding: 50px 0;
+    width: 28%;
+}
+.HaloReach{
+    width: 100%;
+    background-color:#5588DB ;
+    padding: 60px 50px;
+}
+.NobleActual{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    padding: 20px 10px;
+}
+.WinterContingency{
+    width: 45%;
+}
+.NOBLETeam{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+}
+.SkeletonCrew{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    order: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 17px 0;
+    padding: 9px;
+}
+textarea{
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+.ONISwordBase{
+    width: 45%;
+}
+.TheBestDefense{
+    margin: 30px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+}
+.SpartansNeverDie{
+    padding: 30px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.MasterChief{
+    width: 40%;
+    font-family: tf;
+    font-size: medium;
+}
+.media{
+    text-align: center;
+}
+
+
